@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kristupas\\Desktop\\PenktasPraktinis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72208E-457B-4D5A-86C2-5D915A7A3EE6}|PenktasPraktinis\\PenktasPraktinis.csproj|c:\\users\\kristupas\\desktop\\penktaspraktinis\\penktaspraktinis\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72208E-457B-4D5A-86C2-5D915A7A3EE6}|PenktasPraktinis\\PenktasPraktinis.csproj|solutionrelative:penktaspraktinis\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72208E-457B-4D5A-86C2-5D915A7A3EE6}|PenktasPraktinis\\PenktasPraktinis.csproj|C:\\Users\\kristupas\\Desktop\\PenktasPraktinis\\penktaspraktinis\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F72208E-457B-4D5A-86C2-5D915A7A3EE6}|PenktasPraktinis\\PenktasPraktinis.csproj|solutionrelative:penktaspraktinis\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kristupas\\Desktop\\PenktasPraktinis\\PenktasPraktinis\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PenktasPraktinis\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kristupas\\Desktop\\PenktasPraktinis\\PenktasPraktinis\\MainWindow.xaml",
+              "RelativeToolTip": "PenktasPraktinis\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-03T17:15:38.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kristupas\\Desktop\\PenktasPraktinis\\PenktasPraktinis\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PenktasPraktinis\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kristupas\\Desktop\\PenktasPraktinis\\PenktasPraktinis\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PenktasPraktinis\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAowJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:15:36.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

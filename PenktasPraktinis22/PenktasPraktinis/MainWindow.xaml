@@ -1,0 +1,58 @@
+﻿<Window x:Class="PenktasPraktinis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PenktasPraktinis"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <!-- Registration Tab -->
+            <TabItem Header="Register">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Username" Margin="0,5" />
+                    <TextBox Name="RegisterUsernameTextBox" />
+                    <TextBlock Text="Password" Margin="0,5" />
+                    <PasswordBox Name="RegisterPasswordBox" />
+                    <Button Content="Register" Margin="0,10" Click="RegisterButton_Click" />
+                </StackPanel>
+            </TabItem>
+
+            <!-- Login Tab -->
+            <TabItem Header="Login">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Username" Margin="0,5" />
+                    <TextBox Name="LoginUsernameTextBox" />
+                    <TextBlock Text="Password" Margin="0,5" />
+                    <PasswordBox Name="LoginPasswordBox" />
+                    <Button Content="Login" Margin="0,10" Click="LoginButton_Click" />
+                </StackPanel>
+            </TabItem>
+
+            <!-- Password Management Tab -->
+            <TabItem Header="Password Manager">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Name" Margin="0,5" />
+                    <TextBox Name="PasswordNameTextBox" />
+                    <TextBlock Text="Password" Margin="0,5" />
+                    <PasswordBox Name="PasswordBox" />
+                    <Button Content="Generate Random Password" Margin="0,10" Click="GenerateRandomPasswordButton_Click" />
+                    <TextBlock Text="URL/Application" Margin="0,5" />
+                    <TextBox Name="PasswordUrlTextBox" />
+                    <TextBlock Text="Comment" Margin="0,5" />
+                    <TextBox Name="PasswordCommentTextBox" />
+                    <Button Content="Save Password" Margin="0,10" Click="SavePasswordButton_Click" />
+                    <TextBlock Text="Search by Name" Margin="0,5" />
+                    <TextBox Name="SearchNameTextBox" />
+                    <Button Content="Search" Margin="0,10" Click="SearchPasswordButton_Click" />
+                    <TextBlock Name="EncryptedPasswordTextBlock" Text="Encrypted Password" Margin="0,5" />
+                    <Button Content="Show Password" Margin="0,10" Click="ShowPasswordButton_Click" />
+                    <Button Content="Copy to Clipboard" Margin="0,10" Click="CopyToClipboardButton_Click" />
+                    <Button Content="Update Password" Margin="0,10" Click="UpdatePasswordButton_Click" />
+                    <Button Content="Delete Password" Margin="0,10" Click="DeletePasswordButton_Click" />
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
